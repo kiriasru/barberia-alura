@@ -60,3 +60,8 @@ nav a {
     font-weight: bold;
     margin: 10px;
 }
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
