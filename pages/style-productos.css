@@ -96,7 +96,7 @@ footer {
     margin: 40px auto;
 }
 
-form label, form p {
+form label, form legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
@@ -110,10 +110,21 @@ form label, form p {
 }
 
 .submit-button {
-    display: block;
-    margin: 0 0 20px;
-    padding: 10px 25px;
-    width: 50%;
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: darkorange;
+
 }
 
 .checkbox {
