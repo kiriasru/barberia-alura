@@ -1,3 +1,7 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
 header {
     background-color: #BBBBBB;
     padding: 20px 0;
@@ -145,4 +149,56 @@ thead {
 table td, table th {
     border: 1px solid black;
     padding: 8px 15px;
+}
+
+/* CSS Para home  */
+
+.banner {
+    width: 100%;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 5px 0 1em;
+    clear: left;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+section p, section h2, section h3 {
+    text-align: center;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 0 20px;
+}
+
+.map {
+    padding: 3em 0;
+    text-align: center;
+}
+
+.map p {
+    margin: 0 0 2em 0;
+}
+
+.imagen-diferenciales {
+    width: 50%;
+}
+
+.video {
+    
 }
