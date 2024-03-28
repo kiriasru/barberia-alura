@@ -157,6 +157,13 @@ table td, table th {
     width: 100%;
 }
 
+.principal {
+    padding: 3em 0;
+    background-color: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+}
+
 .titulo-principal {
     text-align: center;
     font-size: 2em;
@@ -189,6 +196,7 @@ section p, section h2, section h3 {
 .map {
     padding: 3em 0;
     text-align: center;
+    background: linear-gradient(#FEFEFE, #888888);
 }
 
 .map p {
@@ -197,6 +205,8 @@ section p, section h2, section h3 {
 
 .diferenciales {
     text-align: center;
+    background-color: #888888;
+    padding: 2em 0;
 }
 
 .contenido-diferenciales {
@@ -219,6 +229,10 @@ section p, section h2, section h3 {
 
 .items:first-child {
     font-weight: bold;
+}
+
+.items:before {
+    content: "★ ";
 }
 
 .imagen-diferenciales {
